@@ -1,0 +1,31 @@
+{
+  "name": "simple-busqueda-api",
+  "version": "1.0.0",
+  "description": "my search api nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguel1089/globalhitss.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "Miguel Atarama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguel1089/globalhitss/issues"
+  },
+  "homepage": "https://github.com/miguel1089/globalhitss#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "simple-busqueda-api": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

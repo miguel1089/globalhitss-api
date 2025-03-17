@@ -1,0 +1,27 @@
+GET http://localhost:3000/personas HTTP/1.1
+
+###
+GET http://localhost:3000/persona/46286201 HTTP/1.1
+
+###
+POST http://localhost:3000/persona/add HTTP/1.1
+Content-Type: application/json
+
+{
+    "Nombres": "Jose Atarama",
+    "Tipo_documento": "DNI",
+    "Numero_documento": "87654321"
+}
+
+###
+PUT http://localhost:3000/persona/edit/46286201 HTTP/1.1
+Content-Type: application/json
+
+{
+    "Nombres": "Miguel Atarama update",
+    "Tipo_documento": "DNI",
+    "Numero_documento": "46286201"
+}
+
+###
+DELETE  http://localhost:3000/persona/delete/87654321 HTTP/1.1
